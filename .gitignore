@@ -1,0 +1,35 @@
+# Binarios, objetos, dependencias y headers precompilados
+rw
+rw.exe
+rw_tsan
+*.o
+*.d
+*.gch
+*.out
+
+# Volcados de memoria y depuracion
+core
+core.*
+vgcore.*
+
+# Archivos temporales y editores
+*~
+*.swp
+*.swo
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+cmake-build-*/
+.clion/
+
+# Resultados experimentales temporales
+*.csv
+*.log
+__pycache__/
+*.pyc
